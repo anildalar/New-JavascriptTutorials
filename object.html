@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <script>
+            
+        </script>
+    </head>
+    <body>
+           
+        
+        <script>
+            /*
+                {
+                    property:value,
+                    property:value,
+                    functions
+
+                }
+            */
+           
+            var student = {
+                'name':"Nandan", // String
+                "surname":'Kabra', //String
+                address:'Jawad',
+                friends:['Anil',"Ritik","Aviash","Kiran"], //JS OBject Containing Array,
+                teachers:[{
+                            name:"Anil DOLLOR",
+                            contact:"978987979",
+                            salary:30000
+                        },{
+                            name:"Amit Singh",
+                            contact:"765757577"
+                        }], // Array of Object
+                sister: {   // JS Object
+                    name:"Saloni",
+                    "contanct":972937497,
+                    "Hobies":['reading',"writting","dancing"]
+                }
+            }; // JS Object
+
+
+            //Object.member
+
+            //alert(student.name);
+            console.log(student.name);
+            console.log(student.surname);
+            console.log(student.address);
+            console.log(student.friends[0]);
+            console.log(student.name+" Have "+student.friends.length+" Friends");
+
+            // Nandan Have 2 Teachers
+
+            console.log(student.name + "Have "+student.teachers.length+" Teachers");
+
+            //  Anil DOLLOR 098080800
+            // Amit SIngh 756765765765
+
+            /*for(initialization;condition;inc/decr)*/
+            for(var i=0; i< student.teachers.length;i++){
+                console.log(student.teachers[i].name+' '+student.teachers[i].contact);
+            }
+
+            var x = ['Sunil',student ]; //Array contain JS Object
+
+
+
+
+        </script>
+    </body>
+</html>

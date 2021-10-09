@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+
+        </style>
+        <script>
+            //1. Function Defination  One Time Process
+            function myFunction(x,y){ // x and y are formal argmuent/parametr
+                //Function Body
+                
+                //function may return something
+                return x+y;
+            }
+
+
+            //2. Function Calling  Many time Process
+
+            let z = myFunction(10,20); // 10 and 20 are actual parameter/arguments
+            var a = myFunction(50,20);
+            //myFunction is a user Defined function
+            console.log(z);
+
+            //alert(a); //function calling
+
+            //alert is a pre defined function
+
+            //
+
+            var b = myFunction(40,myFunction(50,20));
+            //alert(b);
+
+
+            //var student1 = 'Anil';
+
+            var students = ['Anil',"Kiran",'Avianash',"Nandan","Abhishek"];
+
+
+            console.log(students[-1]);
+            console.log(students[5]);
+
+           // console.log('Hello '+students[1]+", How are you?");
+
+            //alert("Hello "+students[4]+" HOw are you?");
+
+            function greet(m){
+                console.log('Hello '+m+', How are you?');
+            }
+
+
+            
+
+            /*
+                
+
+                for(initialization;condition;increment/decrement){
+
+                }
+            */
+
+            for(var i=0;i<=4;i++){
+                greet(students[i]);
+            }
+
+            /* greet(students[0]);
+                greet(students[1]);
+                greet(students[2]);
+                greet(students[3]);
+                greet(students[4]);
+                greet(students[5]);
+            */
+
+            function greet2(s){
+                for(var i=0;i<=4;i++){
+                    console.log('11 Hello '+s[i]+', How are you?');
+                 }
+            }
+
+            greet2(students);
+        </script>
+    </head>
+    <body>
+        
+
+        <script>
+            
+        </script>
+    </body>
+</html>

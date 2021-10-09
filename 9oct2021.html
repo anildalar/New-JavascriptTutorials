@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Object</title>
+        <style>
+
+        </style>
+        <script>
+            let x = {
+                //Members
+                //1. Property:Value
+                //2. Functions/Methods
+                name:"Anil",
+                surname:"DOLLOR",
+                myFuncA:function(){ // formal arguments
+                    //Function Defination
+                    //Function body
+
+                    //console.log(this.); // this = self = current object
+                    //object.member
+                    // this is a current  js object
+                    console.log('My name is '+this.name);
+                },
+                myFuncB:()=>{
+
+                },
+                myFuncC:function(){
+
+                }
+
+            };// x is an JS OBject
+
+            //object.member
+            console.log(x.myFuncA());
+
+            let y = [{ // Array of object
+                //1. Property:value
+                name:"Anil",
+                address:"Neemuch MP INDIA",
+                "friends":['A',"B",'c',"D"]
+            }];
+
+            let z = ['A',"B",'c',"D",...y];
+        </script>
+    </head>
+    <body>
+
+        <script>    
+            //console.log(y);
+
+            z.forEach(element => {
+                console.log("My Friend is " +element);
+            });
+
+            let teachers = ['AA',"BB",'CC'];
+
+            /* for (singlualar of plural) {
+                // code block to be executed
+            } */
+
+           /*  for (variable of iterable) {
+                // code block to be executed
+            } */
+
+            for (teacher of teachers) {
+                console.log(teacher);
+                // code block to be executed
+            }
+        </script>
+    </body>
+</html>

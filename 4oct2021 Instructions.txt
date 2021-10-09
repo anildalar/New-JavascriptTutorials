@@ -1,0 +1,35 @@
+var anilDollor;
+
+
++ Addition Operator
+
+Number
+leftOperand + right OPerand
+
+10 + 20 = 30
+
++ Concatination Operator
+concatinate = Jodna
+
+String
+leftOperand + right OPerand
+eg
+	'Hello'+'Anil';
+	
+	10 + 'Anil'
+	'Anil' + 10
+
+
+Constant are always writtern in UPPERCASE
+const PI=3.14
+
+PI=4.5;
+
+
+A -> Z
+
+Assignment
+Create A- Z Function with proper
+1. Indentation
+2. Documentation
+3. Naming Convention (camleCase)

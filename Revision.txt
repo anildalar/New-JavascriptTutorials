@@ -1,0 +1,28 @@
+Object
+1. JS Object {}
+
+{
+	1. Properties
+	2. Functions
+
+}
+
+Array []
+
+Array ['Anil',5000,3.14,3.14141414,{}]
+
+Array [{},{},{},{},{}] // Array of Objects
+
+let x = [10,20.4,{ name:"anil" }]
+
+let y = [{},{},{},{}........]  Array of Objects
+y is a array of object
+
+let z = [{},{},'Anil',{}........]  Array of Objects
+z is not an array of object
+
+let a = [{},{},{ x:"anil"}........]  Array of JS Objects
+a is  an array of object
+
+
+2. Class Object

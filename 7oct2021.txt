@@ -1,0 +1,34 @@
+Function
+Functions are resualble block of Code
+
+
+//1. Function Defination
+	//1.1 Classic/Old way 
+		function funcname(){
+		
+		}
+	//1.2 Modern/New Way  ES6(Echma Script 2015)
+	//Fat Arrow // Arrow FUnction
+=> Fat Arrow//Arrow Function
+-> Thin Arrow
+		let funcname=()=>{
+		
+		}
+
+		let funcName = ()=>{
+		
+		}
+
+//2. Function Calling
+
+Google Angular Js  500KB
+FaceBook  ReactJs  100KB
+X	  VueJS	    80KB
+
+
+
+Operator
+
+Spread Operator
+
+...

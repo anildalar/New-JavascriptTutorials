@@ -1,0 +1,45 @@
+Data/Value
+
+1. Number
+	1.1 WholeNumber / Integer  1,2,3,4,5
+	1.2 Decimal   / Float
+	1.2.1
+		var x=3.14 Float
+		var y =3.1413658569679  Double
+
+2. String/String Literals/Literal
+
+	'ANIL'
+	"OKLABS"
+
+
+Syntax for Variable Decleration
+
+var <variableName>;
+var x;
+var y;
+let z;
+const PI=3.14;
+
+const MY_PI_VALUE=3.14
+
+Functions always return something
+
+Functions may return values;
+
+values
+	1. Int
+	2. Float/Double
+	3. String
+
+var x = 'OKLABS;
+ 6 byte to store in memory
+
+
+A Statement or Instructions always terminated by semi-colon;
+
+
+Actual Arguemtn can be
+1. Int/Float/Double
+2. String
+3. can be a function call

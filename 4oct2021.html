@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+    <script>
+
+    </script>
+</head>
+<body>
+    
+    <script>
+        //Naming Convention In JS
+        //CamleCase for Variable and Function/Method
+        var anilDollor;
+        var kiranRathore;
+
+        //PI  22/7 or 3.141
+        const PI=3.14;
+
+        //PI=4.5;
+
+        console.log(PI);
+
+
+        anilDollor = 10;
+        kiranRathore = 20;
+
+        console.log(anilDollor + kiranRathore);
+
+        var nandankabra;
+        nandankabra =40;
+        console.log(nandankabra);
+        
+
+        //A -> Z
+        //document.getElementById()
+        //1. Function Defination
+        function myFunctionA(name){ // name is a formal Arguemnt/Parameter
+            //Function Body
+            console.log('Hello '+name); // 'Hello' + 'Anil'
+            myFunctionB('Hello '+name);
+        }
+        //2. Function Calling
+        myFunctionA('Anil'); // Actual Argument/Parameter
+
+
+        //1. Function Defination
+        function myFunctionB(msg){ // msg is formal argument
+            //Function Body
+            console.log(msg+' How are you ?');
+            myFunctionC(10,20); //
+            myFunctionC('10',"20"); //
+            myFunctionC('Nandan ',"Kabra"); //
+        }
+
+        //2. Function Calling
+        myFunctionB("Nandan"); // "Nandan" is a actual argment/paremtn
+        myFunctionA('Nandan'); 
+
+        //1. FUnction defination
+        function myFunctionC(x,y){ // x is a formal arguemtn
+
+            //Function Body
+            console.log(x+y);
+        }
+    </script>
+</body>
+</html>
