@@ -8,6 +8,17 @@
         <style>
             div[data-anil="myfanbox"]{ /* Atrribute Selector */
             }
+
+            .buttongroup > button:first-child{
+                border: none;
+                padding:30px 10px;
+                background-color:#fff;
+                width: 150px;
+                background-image: url("img/onoff.png");
+                background-repeat: no-repeat;
+                background-size: 150px 150px;
+                background-position:0px -14px;
+            }
             .FanBox{
                 width: 300px;
                 height: 300px;
@@ -32,29 +43,40 @@
         </style>
         <script>
 
+            function x(elem){
+                //Function boyd
+
+                //Function is returning somthing
+                return document.querySelector(elem);
+            }
             //1. Function Defination
             function startFan(speed){ // speed is formal arg/params
                    //We have to check some condition
                    //if  else if else if ... else Ladder
                    if(speed == 0){
-                        document.querySelector('.FanBox').style.animationPlayState = 'paused';
+                        x('.FanBox').style.animationPlayState = 'paused';
+                        x('[onclick="startFan(0)"]').style.backgroundPosition = '0px -14px';
                    }else if(speed == 1){
                        //Testing
                         //alert('1');
-                        document.querySelector('.FanBox').style.animationPlayState = 'running';
-                        document.querySelector('#fanboxx').style.animationDuration = '1s';
+                        x('.FanBox').style.animationPlayState = 'running';
+                        x('#fanboxx').style.animationDuration = '1s';
+                        //testing
+                        x('[onclick="startFan(0)"]').style.backgroundPosition = '0px -78px';
                    }else if(speed == 2){
                        // alert('2');
 
                         //object.method()
-                        document.querySelector('[data-anil="myfanbox"]').style.animationPlayState = 'running';
-                        document.querySelector('[data-anil="myfanbox"]').style.animationDuration = '0.5s';
+                        x('[data-anil="myfanbox"]').style.animationPlayState = 'running';
+                        x('[data-anil="myfanbox"]').style.animationDuration = '0.5s';
+                        x('[onclick="startFan(0)"]').style.backgroundPosition = '0px -78px';
                    }else{
                        // alert('3');
                        //object.member
                        //object.method()
                        document.getElementById('fanboxx').style.animationPlayState='running';
                        document.getElementById('fanboxx').style.animationDuration='0.1s';
+                       x('[onclick="startFan(0)"]').style.backgroundPosition = '0px -78px';
 
                    }
             }
@@ -64,8 +86,8 @@
         <div class="FanBox" id="fanboxx" data-anil="myfanbox" >
 
         </div>
-        <div style="text-align: center;">
-            <button onclick="startFan(0)" >STOP</button>
+        <div style="text-align: center;" class="buttongroup">
+            <button onclick="startFan(0)" ></button>
             <button onclick="startFan(1)">1</button>
             <button onclick="startFan(2)">2</button>
             <button onclick="startFan(3)">3</button>
