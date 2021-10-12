@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{
+                background-color: #000;
+            }
+        </style>
+        <script>
+            //1. Array
+            var a = [];
+
+            //2. Object
+            var b=  {};
+
+            //3. Array of Objects
+            var c = [{},{}];
+
+            function _x(elemID){
+                return document.getElementById(elemID);
+            }
+            //1. Funciton Defination
+            function switchOnOff(status='off'){
+                //alert(status);
+                if(status == 'on'){
+                    _x('myimg').setAttribute('src',"img/bulb2.png");
+                    _x('mybody').style.backgroundColor="yellow";
+                }else{
+                    _x('myimg').setAttribute('src',"img/bulb1.png");
+                    _x('mybody').style.backgroundColor="#000";
+                }
+                
+            }
+
+            //function defination
+            function changeContent(){
+                //alert('ok');
+                document.getElementById('x').innerHTML='New oNe';
+                document.querySelector('[data-mycustomattr1="mycustomattr1-value"]').innerHTML='Hello Everyone';
+            }
+        </script>
+    </head>
+    <body id="mybody">
+            <img src="img/bulb1.png" id="myimg" width="200">
+            <button class="a_button" onclick="switchOnOff('on')">On</button>
+            <button class="a_button" onclick="switchOnOff('off')">Off</button>
+            
+            
+            <div data-mycustomattr1="mycustomattr1-value" id="x">Hello</div>
+            <button onclick=" changeContent(); ">Change Content</button>
+        <script>
+            
+        </script>
+    </body>
+</html>

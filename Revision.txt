@@ -26,3 +26,43 @@ a is  an array of object
 
 
 2. Class Object
+
+
+
+
+
+For Loop is a big problem
+
+3 Problem
+1. Wrong Initialization i=0    i=1
+2. Condition Checking   i<= array.length
+3. Wrong Ince/Decr
+
+
+
+
+
+Important Points
+
+Array are iterables     []
+Array of Object are iterables  [{},{}]
+JS Object are not iterable  {}
+
+
+forEach
+for(variable of iterable){
+}
+
+for(singular of plural){
+}
+
+Assignment:-
+
+Create a JS Object containing A-Z function having AA-ZZ properties
+
+
+
+
+
+
+

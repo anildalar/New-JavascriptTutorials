@@ -1,0 +1,9 @@
+How to access DOM Elements with Pure JS?
+
+
+1. document.getElementById();
+2. document.querySelector();
+
+
+
+
