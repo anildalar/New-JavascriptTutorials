@@ -41,7 +41,7 @@ Local Storage
 
 HTML Web Storage API
 
-Assignemtn
+Assignments
 
 write a JS program to calculate area of triangle?
 write a program to calculate simple interest

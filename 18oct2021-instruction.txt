@@ -1,0 +1,28 @@
+MarketPlace
+
+
+
+How to access the form element 
+
+Event onchange
+
+<element onevent="Some JS"></element>
+<element onchange="calculate()"></element>
+
+Area of Cirle
+
+Pi R 2
+
+3 Ways to access the dom element values
+
+1. document.getElementById();
+2. document.querySelector();
+3. event.target.value  => it works on  onevent handler 
+
+
+SPA Single Page Application
+ReactJs
+AngularJs
+VueJs
+MetorJs
+
