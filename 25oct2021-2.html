@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Traversing/Search Up/Down</title>
+    </head>
+    <body>
+        <div class="gp" id="grandparent">
+            Grand Parent
+            <div class="p">
+                Parent
+                <div class="c">
+                    Child
+                    <div class="gc gc1">
+                        Grand CHild1
+                    </div>
+                    <div class="gc gc2">
+                        Grand CHild2
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <script>
+                p = document.getElementById('grandparent');
+
+
+                console.log(p);
+
+                arr = p.querySelectorAll('.gc');
+
+                console.log(arr);
+                arr.forEach(function(currentElement,index,arr){
+                    currentElement.style.color = 'Orange';
+                    console.log(currentElement)
+                });
+                //p.querySelectorAll('.gc').style.color = 'Orange';
+
+
+                //JS HOISTING
+                var p;
+                var arr;
+        </script>
+    </body>
+</html>

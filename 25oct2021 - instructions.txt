@@ -1,0 +1,27 @@
+JS DOM
+
+
+Traversing Down / Searches Down
+	Parent Tag  -> Child Tag
+
+
+
+	<div class="gp">
+		<div class="p">
+			<div class="c">
+			</div>
+		</div>
+		
+	</div>
+
+	element.querySelector();
+
+
+Traversing Up / Searches Up
+	 Child Tag -> Parent Tag
+
+	1. Closest Method
+
+
+	https://www.w3schools.com/jsref/met_element_closest.asp
+
