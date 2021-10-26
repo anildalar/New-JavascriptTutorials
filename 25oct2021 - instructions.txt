@@ -25,3 +25,45 @@ Traversing Up / Searches Up
 
 	https://www.w3schools.com/jsref/met_element_closest.asp
 
+	https://www.w3schools.com/JSREF/dom_obj_document.asp
+
+
+
+Create a Unordered LIst with pure JS
+
+Associativity of operators
+() have the higest priority
+
+classList is an object {}
+
+{
+	1. p:v;
+	2. method
+}
+
+I want to iterate/Loop over an object;
+ForIn
+
+Syntax
+for (key in object) {
+  // code block to be executed
+}
+
+How to access the value of a properties
+
+https://www.w3schools.com/js/js_object_properties.asp
+
+There are 3 ways
+1.objectName.property
+
+
+2.objectName["property"]
+3.objectName[expression]
+
+
+What is this in JS?
+
+This is a reference to the current object {}
+
+
+
