@@ -98,6 +98,23 @@
 
 
 
+            setTimeout(function(){ 
+                //document.querySelector('li').remove();
+                var x = document.querySelectorAll('li');
+
+                console.log(typeof x);
+                
+                for (const p in x) {
+                    
+                    if(!isNaN(p)){
+                        console.log(p);
+                        console.log(x[p]);
+                       // x[p].remove();
+                       x[p].classList.remove('com');
+                    }
+                }
+            }, 1000);
+
         </script>
     </body>
 </html>
